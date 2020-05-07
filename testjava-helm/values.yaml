@@ -8,7 +8,7 @@ image:
   repository: shakuntla11/java-webtest
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart version.
-  tag: "0.3"
+  tag: "0.4"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -37,8 +37,8 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: ClusterIP
-  port: 83
+  type: NodePort
+  port: 8083
 
 ingress:
   enabled: false
