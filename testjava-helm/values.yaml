@@ -8,7 +8,7 @@ image:
   repository: https://hub.docker.com/repository/docker/shakuntla11/java-webtest
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart version.
-  tag: ""
+  tag: "0.1"
 
 imagePullSecrets: []
 nameOverride: ""
